@@ -2,9 +2,6 @@
 using namespace std;
 typedef unsigned long long int ull;
 
-//Input range varies from [0,inf)
-
-
 bool checkEven(ull x){
 	bool answer = false;
 	if(x % 2 == 0){
