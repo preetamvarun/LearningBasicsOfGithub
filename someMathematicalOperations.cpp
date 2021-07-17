@@ -15,7 +15,6 @@ bool checkEven(int x){
 
 int main(){
 	int n; cin>>n;
-	bool x = checkEven(n);
-	x == true ? cout<<"It is a even number" : cout<<"it is odd number";
+	checkEven(n) == true ? cout<<"It is a even number" : cout<<"it is odd number";
 	return 0;
 }
