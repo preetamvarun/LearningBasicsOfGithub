@@ -5,7 +5,6 @@ typedef long long int ull;
 bool checkEven(ull x){
 
 	if ( x < 0 ){
-		cout<<"getting into this block";
 		throw "try to give a non negative integer";
 	}
 
